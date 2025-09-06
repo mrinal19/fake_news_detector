@@ -1,21 +1,25 @@
-An AI-powered web application built with Flask that detects whether a given news article is Fake or Real.
-The project combines Machine Learning for classification with a Flask web interface for deployment and user interaction.
+📖 Overview
 
-🚀 Features
+The Fake News Detector is a machine learning–powered web application that predicts whether a news article is Real or Fake.
+It uses a trained ML model integrated with a Flask backend and provides a simple web interface for testing..
 
-🔍 Detects Fake vs Real news instantly
+✨ Features
 
-🌐 Flask Backend for fast and lightweight API handling
+✅ Detects Fake vs Real news instantly
 
-🔄 CORS Support for frontend integration
+✅ Flask API for fast and reliable predictions
 
-📊 ML Model trained on real-world datasets
+✅ CORS enabled for frontend integration
 
-🖥️ Simple Web UI to test predictions
+✅ ML Model Integration with Scikit-learn
 
-🛠️ Tech Stack
+✅ User-friendly web interface
 
-Backend: Flask, Flask-CORS
+🛠️ Technologies Used
+
+Programming Language: Python 3.13
+
+Frameworks: Flask, Flask-CORS
 
 Machine Learning: Scikit-learn, Pandas, NumPy, Joblib
 
