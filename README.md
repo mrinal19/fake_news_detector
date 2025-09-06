@@ -1,19 +1,32 @@
-# 📰 Fake News Detection using Machine Learning
+An AI-powered web application built with Flask that detects whether a given news article is Fake or Real.
+This project uses Machine Learning (Scikit-learn, Pandas, NumPy) for training the detection model and a simple Flask web app for deployment.
 
-This project uses Python and ML to detect whether a news article is FAKE or REAL. Built with Logistic Regression and TF-IDF vectorization.
+🚀 Features
 
-## Features
-- Predict FAKE/REAL from news text
-- 90%+ accuracy
-- Easy command-line interface
+🔍 Fake News Detection – Classifies news articles as Real or Fake.
 
-## Tech Stack
-- Python
-- scikit-learn
-- Pandas
-- NLP (TF-IDF)
+🌐 Flask Backend – Lightweight and fast API for predictions.
 
-## Run it:
-```bash
-pip install -r requirements.txt
-python fake_news_detector.py
+🔄 CORS Support – Allows cross-origin requests for frontend integration.
+
+📊 ML Model Integration – Uses trained ML model (Scikit-learn).
+
+🖥️ Simple Web Interface – Enter news text and get instant results.
+
+🛠️ Tech Stack
+
+Backend: Flask, Flask-CORS
+
+Machine Learning: Scikit-learn, Pandas, NumPy, Joblib
+
+Frontend: HTML (via Flask templates)
+
+Language: Python 3.13
+
+📌 Future Enhancements
+
+✅ Improve ML model accuracy with deep learning.
+
+✅ Deploy on Heroku / AWS / Render for public access.
+
+✅ Add a modern React frontend for better UI.
